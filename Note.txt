@@ -1,0 +1,14 @@
+Regarding the bullets texture:
+ - Toon shader is used
+ - Inside the .ps file, I've made a few changes:
+    - lightColour now times with 1-fresnal, so the border now has
+the texture's colour, inside with black colour
+    - in return, value is 1-[the formula] so the black part gets
+inverted to white
+    - by doing this, I have to use red texture for blue bullets
+and vice versa
+    - the alpha value in calculating fresnal times with a linear
+value so as the point is further away from the border, it gets
+blurrier
+    - actually glowing outwards would be better than inwards but
+this is probably as far as tricks can go

@@ -1,0 +1,50 @@
+﻿Build started 04-Dec-15 3:15:22 PM.
+     1>Project "F:\Documents\1 Studying\MONASH\2015-s2\2049\Week 10\FIT2049 - ParticleSystem\FIT2049 - Week 5 Code\FIT2049 - Week 5 Code.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Install Directories\vs 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         Game.cpp
+     1>f:\documents\1 studying\monash\2015-s2\2049\week 10\fit2049 - particlesystem\fit2049 - week 5 code\collisions.h(4): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>f:\documents\1 studying\monash\2015-s2\2049\week 10\fit2049 - particlesystem\fit2049 - week 5 code\collisions.h(5): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>f:\documents\1 studying\monash\2015-s2\2049\week 10\fit2049 - particlesystem\fit2049 - week 5 code\enemy.h(56): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>f:\documents\1 studying\monash\2015-s2\2049\week 10\fit2049 - particlesystem\fit2049 - week 5 code\game.cpp(447): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>f:\documents\1 studying\monash\2015-s2\2049\week 10\fit2049 - particlesystem\fit2049 - week 5 code\game.cpp(448): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>f:\documents\1 studying\monash\2015-s2\2049\week 10\fit2049 - particlesystem\fit2049 - week 5 code\game.cpp(449): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>f:\documents\1 studying\monash\2015-s2\2049\week 10\fit2049 - particlesystem\fit2049 - week 5 code\game.cpp(452): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>f:\documents\1 studying\monash\2015-s2\2049\week 10\fit2049 - particlesystem\fit2049 - week 5 code\game.cpp(600): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\documents\1 studying\monash\2015-s2\2049\week 10\fit2049 - particlesystem\fit2049 - week 5 code\game.cpp(607): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\documents\1 studying\monash\2015-s2\2049\week 10\fit2049 - particlesystem\fit2049 - week 5 code\game.cpp(615): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         E:\Install Directories\vs 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Documents\1 Studying\MONASH\2015-s2\2049\Week 10\FIT2049 - ParticleSystem\Debug\FIT2049 - Week 5 Code.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Documents\1 Studying\MONASH\2015-s2\2049\Week 10\FIT2049 - ParticleSystem\Debug\FIT2049 - Week 5 Code.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Documents\1 Studying\MONASH\2015-s2\2049\Week 10\FIT2049 - ParticleSystem\Debug\FIT2049 - Week 5 Code.lib" /MACHINE:X86 Debug\Button.obj
+         Debug\Camera.obj
+         Debug\Collisions.obj
+         Debug\Direct3D.obj
+         Debug\Enemy.obj
+         Debug\Game.obj
+         Debug\GameObject.obj
+         Debug\InputController.obj
+         Debug\Main.obj
+         Debug\Mesh.obj
+         Debug\ObjectFactory.obj
+         Debug\ParticleShader.obj
+         Debug\ParticleSystem.obj
+         Debug\PhongShader.obj
+         Debug\Player.obj
+         Debug\Projectile.obj
+         Debug\SceneLighting.obj
+         Debug\Shader.obj
+         Debug\Sound.obj
+         Debug\SoundManager.obj
+         Debug\SpinningObject.obj
+         Debug\Texture.obj
+         Debug\TexturedShader.obj
+         Debug\ToonShader.obj
+         Debug\WaveFile.obj
+         Debug\Window.obj
+         FIT2049 - Week 5 Code.vcxproj -> F:\Documents\1 Studying\MONASH\2015-s2\2049\Week 10\FIT2049 - ParticleSystem\Debug\FIT2049 - Week 5 Code.exe
+     1>Done Building Project "F:\Documents\1 Studying\MONASH\2015-s2\2049\Week 10\FIT2049 - ParticleSystem\FIT2049 - Week 5 Code\FIT2049 - Week 5 Code.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.18
